@@ -9,3 +9,4 @@ class BangunDatar {
 
 		void input() {
 			cout << "Masukan Panjangnya = ";
+			cin >> panjang;
