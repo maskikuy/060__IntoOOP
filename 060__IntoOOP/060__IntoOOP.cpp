@@ -14,8 +14,14 @@ class Mahasiswa{
 		}
 };
 
-class Matakuliah {
-private:
-	string KodeMk;
-	string NamaMk;
-	int sks;
+class Matakuliah{
+	private:
+		string KodeMk;
+		string NamaMk;
+		int sks;
+
+	public:
+		void input() {
+			cout << "Kode MK : ";
+			cin >> KodeMk;
+			cout << "Nama MK : ";
